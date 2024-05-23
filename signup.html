@@ -36,12 +36,44 @@
     </header>
 
     <!--Main-->
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
+                <h2>let's get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email-address" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" id="road" name="running-preference" value="road" checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" id="trail" name="running-preference" value="trail">
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" id="both" name="running-preference" value="both">
+                    </div>
+                </div>
+                <br>
+                <input class="join-button" type="submit" value="Let's Run!">
+            </form>
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <ul id="social-networks">
             <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit out Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+                    aria-label="Visit out Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
             </li>
 
             <li><a href="https://x.com/" target="_blank" rel="noopener"
@@ -55,7 +87,8 @@
             </li>
 
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit out Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="Visit out Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </footer>
